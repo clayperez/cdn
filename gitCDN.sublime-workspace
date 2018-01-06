@@ -459,14 +459,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "changelog.md",
-			"settings":
-			{
-				"buffer_size": 324,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -475,17 +467,25 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 400.0,
-		"last_filter": "status",
+		"height": 267.0,
+		"last_filter": "push",
 		"selected_items":
 		[
+			[
+				"push",
+				"Git: Push"
+			],
 			[
 				"status",
 				"Git: Status"
 			],
 			[
-				"push",
-				"Git: Push"
+				"sta",
+				"Git: Status"
+			],
+			[
+				"statu",
+				"Git: Status"
 			],
 			[
 				"push ta",
@@ -506,10 +506,6 @@
 			[
 				"add ",
 				"Git: Add Tag"
-			],
-			[
-				"statu",
-				"Git: Status"
 			],
 			[
 				"install",
@@ -636,10 +632,6 @@
 				"Set Syntax: SublimeGit Status"
 			],
 			[
-				"sta",
-				"Git: Status"
-			],
-			[
 				"insta",
 				"Package Control: Install Package"
 			],
@@ -708,10 +700,16 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Carlos/Google Drive/APPS/gitcdn"
+		"/Users/Carlos/Google Drive/APPS/gitcdn",
+		"/Users/Carlos/Google Drive/APPS/gitcdn/formstack",
+		"/Users/Carlos/Google Drive/APPS/gitcdn/marshal.bikemonkey.net"
 	],
 	"file_history":
 	[
+		"/Users/Carlos/Google Drive/APPS/gitcdn/marshal.bikemonkey.net/marshalcore.js",
+		"/Users/Carlos/Google Drive/APPS/gitcdn/README.md",
+		"/Users/Carlos/Google Drive/APPS/gitcdn/CHANGELOG.md",
+		"/Users/Carlos/Google Drive/APPS/gitcdn/changelog.md",
 		"/Users/Carlos/Google Drive/APPS/rhesus.io/electron.rhesus.io/rhesusServer.js",
 		"/Users/Carlos/Google Drive/APPS/rhesus.io/electron.rhesus.io/app/package.json",
 		"/Users/Carlos/Google Drive/APPS/rhesus.io/electron.rhesus.io/appcore.js",
@@ -835,11 +833,7 @@
 		"/Users/Carlos/rhesusData/plugins/cykelscramble/plugin.json",
 		"/Users/Carlos/rhesusData/plugins/live/plugin.json",
 		"/Users/Carlos/Google Drive/APPS/www.rhes.us/rhesusPayloads/2.0/appCore.js",
-		"/Users/Carlos/rhesusData/plugins/.gitignore",
-		"/Users/Carlos/Library/Application Support/Sublime Text 3/Packages/User/GitGutter.sublime-settings",
-		"/Users/Carlos/Library/Application Support/Sublime Text 3/Packages/GitGutter/GitGutter.sublime-settings",
-		"/Users/Carlos/Google Drive/APPS/rhesus.io/electron.rhesus.io/5.2.8.md",
-		"/Users/Carlos/Google Drive/APPS/proxmark3/proxmark3/HACKING.txt"
+		"/Users/Carlos/rhesusData/plugins/.gitignore"
 	],
 	"find":
 	{
@@ -857,6 +851,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"<script src=\"",
+			"<script"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -874,41 +870,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "changelog.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 324,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": false,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/MarkdownLight/MarkdownLight.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
